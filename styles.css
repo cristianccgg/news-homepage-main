@@ -99,6 +99,11 @@ h3 {
   height: 150px !important;
 }
 
+.navbar-toggler.collapsed > .close,
+.navbar-toggler:not(.collapsed) > .navbar-toggler-icon {
+  background-image: url(/assets/images/icon-menu-close.svg) !important;
+}
+
 /* ---------------------MEDIA QUERY -----------------*/
 
 @media screen and (max-width: 576px) {
