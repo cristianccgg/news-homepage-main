@@ -19,10 +19,6 @@
   --Very-dark-blue: hsl(240, 100%, 5%);
 }
 
-.logo {
-  width: 4vw;
-}
-
 .right-container {
   gap: 1vh !important;
   background-color: var(--Very-dark-blue);
@@ -36,18 +32,18 @@
 }
 
 span {
-  font-size: 1.5vw;
+  font-size: 1rem;
   font-weight: 600;
 }
 
 .description {
-  font-size: 1vw !important;
+  font-size: 0.7rem !important;
   line-height: 1.5;
 }
 
 h2 {
   font-weight: 300 !important;
-  font-size: 1.2vw !important;
+  font-size: 0.7rem !important;
   line-height: 2vw !important;
 }
 
@@ -71,7 +67,7 @@ button {
 }
 
 .lower-text {
-  font-size: 1.2vw !important;
+  font-size: 1vw !important;
   line-height: 1.5 !important;
 }
 
@@ -82,7 +78,7 @@ button {
 }
 
 h3 {
-  font-size: 2vw !important;
+  font-size: 1.5vw !important;
   color: var(--Grayish-blue);
   opacity: 50% !important;
 }
@@ -91,13 +87,23 @@ h3 {
   background-color: var(--Very-dark-blue);
 }
 
+.nav-link {
+  font-size: 1rem !important;
+}
+
 .nav-link:hover {
   color: var(--Soft-orange) !important;
 }
 
+.img-01 {
+  height: 150px !important;
+}
+
+/* ---------------------MEDIA QUERY -----------------*/
+
 @media screen and (max-width: 576px) {
   .logo {
-    width: 40px;
+    width: 10vw;
   }
 
   .new {
@@ -164,5 +170,9 @@ h3 {
     gap: 30px;
     margin-bottom: 50px !important;
     margin-top: 50px !important;
+  }
+
+  .nav-link {
+    font-size: 3vw !important;
   }
 }
