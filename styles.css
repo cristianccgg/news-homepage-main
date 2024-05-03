@@ -19,6 +19,11 @@
   --Very-dark-blue: hsl(240, 100%, 5%);
 }
 
+body {
+  background-color: var(--off-white) !important;
+  height: 100vh !important;
+}
+
 .logo {
   width: 3rem;
 }
