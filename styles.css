@@ -19,6 +19,10 @@
   --Very-dark-blue: hsl(240, 100%, 5%);
 }
 
+.logo {
+  width: 3rem;
+}
+
 .right-container {
   gap: 1vh !important;
   background-color: var(--Very-dark-blue);
@@ -26,9 +30,9 @@
 }
 
 .new {
-  font-size: 3vw;
+  font-size: 2rem;
   font-weight: 600;
-  color: var(--Soft-orange);
+  color: var(--Soft-orange) !important;
 }
 
 span {
@@ -57,7 +61,14 @@ button {
   width: 150px;
 }
 
+.brigth-container {
+  margin-left: 0px !important;
+  padding-left: 0px !important;
+  margin-top: 20px !important;
+}
+
 .brigth-text {
+  font-size: 2rem;
   padding-left: 0px !important;
   padding-right: 100px !important;
   margin-left: 0 !important;
@@ -88,7 +99,7 @@ h3 {
 }
 
 .nav-link {
-  font-size: 1rem !important;
+  font-size: 1.2rem !important;
 }
 
 .nav-link:hover {
